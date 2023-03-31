@@ -22,8 +22,3 @@ function App() {
 export default App;
 
 
-
-//Call API that returns a list of Pokemon
-//Display Pokemon on screen (name,number,type,weakness)
-//Display search functionalities by nam
-//Display filtering functionalities by type and weaknesses

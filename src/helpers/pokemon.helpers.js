@@ -36,6 +36,7 @@ export function getListOf(list, prop) {
             types = [...types, newType];
         }
     }
+
     
     // Alphabetical
     types.sort();
@@ -48,6 +49,7 @@ export function getListOf(list, prop) {
 
     
 }
+
 
 export function searchByFilter(list,type,weakness) {
     //take array of pokemon
@@ -76,13 +78,6 @@ return finalList;
 export async function GetOnePokemon() {
 
 
-
-
-
-
-
-//     let [items, setItems] = useState([]);
-//     let [pokemon, setPokemon] = useState("");
    
     let [info, setInfo] = useState({});
 
@@ -100,17 +95,6 @@ export async function GetOnePokemon() {
 
 
 
-//         for (let item of items) {
-//             if(item.name == name) {
-//                 setPokemon(item);
-//             }
-//         }
-     
-
-
-
-//     return pokemon;
-
 
 }
 
@@ -125,6 +109,5 @@ export async function GetOnePokemon() {
 
 
 
-//about to create a getListOf() helper function to create list of options for drop down box
 
 

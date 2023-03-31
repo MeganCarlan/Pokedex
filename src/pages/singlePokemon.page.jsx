@@ -33,7 +33,7 @@ export function SinglePokemonPage(props) {
     return (
      <div>
         <h1>{params.name}</h1>
-        
+        <p>In progress...</p>
        
      </div>
     
